@@ -1,0 +1,57 @@
+/**
+ * Tabbar 20170808
+ * --------------------------------------------------
+ */
+
+.sm-tabbar{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: -webkit-box; 
+	display: -webkit-flex;
+	display: flex;
+	height: 44px;
+	background-color: #F7F7FA;
+	border-top: 1px solid  #ddd;
+}
+.sm-tabbar a{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+  flex:1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction:column;  
+	-webkit-align-items: center; 
+	-webkit-box-align: center;
+	justify-content: center; 
+	color: #808080;
+}
+.sm-tabbar span{
+	font-size: 12px;
+}
+.sm-tabbar a.active{
+	color: #6795f5;
+}
+.sm-tabbar a i{
+  font-family:"iconfont" !important;
+  font-size:22px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: -12px;
+}
+.sm-tabbar a i:nth-child(2){
+  display: none;
+}
+.sm-tabbar a.active i:nth-child(1){
+  display: none;
+}
+.sm-tabbar a.active i:nth-child(2){
+  display: block;
+}
+.sm-tabbar a i.icon-tb01{	
+  //有图片，webpack没有安装相应loader无法编译
+	//background-image: url(images/icon-tb01.png);
+}
+

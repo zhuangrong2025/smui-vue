@@ -1,0 +1,36 @@
+@import 
+  
+  // Custom
+  "custom",
+
+  // Variables
+  "variables",
+  
+  // Variables
+  "global",
+  
+  // Mixins
+  "mixins",
+  
+  // Icon
+  "icon/icon-font",
+
+  // Components
+  "components/button",
+  "components/dialog",
+  "components/check",
+  "components/switch",
+  "components/list",
+  "components/header",
+  "components/tabbar";
+
+
+
+/*page padd*/
+.sm-container{
+  padding: 0 10px
+}
+.sm-container.isTb{
+  padding-bottom: 50px;
+}
+
