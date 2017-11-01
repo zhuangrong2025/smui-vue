@@ -1,5 +1,7 @@
 <template>
+ <div>
   <div class="page-padd">
+   <!--<div class="left" @click="goback"><</div>-->
     <h3 class="title2">按钮</h3>
     <!--按钮-->
     <a href="#" class="sm-btn primary">primary</a>
@@ -23,19 +25,16 @@
     <a href="#" class="sm-btn link">链接</a>
     <a href="#" class="sm-btn link mini">链接</a>
   </div>
+</div>
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        name: 'button12'
-      }
-    },
-    methods:{
-      dclick(){
-         this.name = "b3"
-      }
+export default {
+  name: 'button',
+  methods: {
+    goback () {
+      this.$router.goBack()
     }
   }
+}
 </script>

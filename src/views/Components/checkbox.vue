@@ -1,17 +1,17 @@
 <template>
 <div>
-  <div class="sm-list-header">多选框</div>
-  <div class="sm-list">
+  <div class="sm-cells-title">复选列表项</div>
+  <div class="sm-cells">
     <ul>
-      <li class="nolink"> 
-        <div class="sm-list-cell">
-          <label><input type="checkbox" name="" class="sm-checkbox" checked>选项1</label>
-        </div>
+      <li> 
+        <label class="sm-cell">
+          <input type="checkbox" name="" class="sm-checkbox" checked>选项1
+        </label>
       </li>
-      <li class="nolink"> 
-        <div class="sm-list-cell">
-          <label><input type="checkbox" name="" class="sm-checkbox">选项2</label>
-        </div>
+      <li> 
+        <label class="sm-cell">
+          <input type="checkbox" name="" class="sm-checkbox">选项2
+        </label>
       </li>
     </ul>
   </div>

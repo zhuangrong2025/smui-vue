@@ -21,7 +21,7 @@ var  webpackConf = {
         '@': resolve('src'),
       }
     },
-    devtool: "source-map", 
+    //devtool: "source-map", 
     module: {
       rules: [
         {
@@ -39,8 +39,13 @@ var  webpackConf = {
         },
         { 
           test: /\.scss$/,
-          loader:  ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?sourceMap!sass-loader?sourceMap' })
-        }
+          loader:  ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' })
+//          loader:  ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?sourceMap!sass-loader?sourceMap' })
+        },
+        {
+　　　　　　test: /\.(png|jpg)$/,
+　　　　　　loader: 'url-loader?limit=8192'
+　　　　 }
       ]
   }, 
     plugins:[  
