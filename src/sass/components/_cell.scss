@@ -67,6 +67,7 @@
       width: 105px;
       @include textwrap()
   }
+  .sm-textarea,
   .sm-input{
       -webkit-box-flex: 1;
       -webkit-flex: 1;
@@ -74,27 +75,25 @@
   }
 }
 
-.sm-cells ul li{
+.sm-cells .sm-cell{
   &:first-child{
-    .sm-cell{
       &:before{
         display: none;
       }
-    }
   }
   &:active{
     background-color: #fff;
   }
-  &.linkto{
-    span{
-      &:after{
-        display: inline-block;
-      }
-    }
-    &:active{
-      background-color: #eee;
-    }
-  }
 }
 
-
+.sm-cells label.sm-cell,
+.sm-cells a.sm-cell{
+  span{
+    &:after{
+      display: inline-block;
+    }
+  }
+  &:active{
+    background-color: #eee;
+  }
+}

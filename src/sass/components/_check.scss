@@ -3,7 +3,7 @@
   display: inline-block;
 	vertical-align: middle;
 	-webkit-appearance:none;
-  margin: 0 5px -2px;
+  margin: 0 5px -3px;
   &:checked{
     &:before{
       color: $checkedColor;

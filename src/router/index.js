@@ -6,6 +6,7 @@ import Button from "../views/Components/button";
 import Checkbox from "../views/Components/checkbox";
 import Radio from "../views/Components/radio";
 import Input from "../views/Components/input";
+import Textarea from "../views/Components/textarea";
 import Cell from "../views/Components/cell";
 
 VueRouter.prototype.goBack = function(){
@@ -24,6 +25,7 @@ const routes = [
         { path:'/checkbox', component:Checkbox },
         { path:'/radio',    component:Radio },
         { path:'/input',    component:Input },
+        { path:'/textarea',    component:Textarea },
         { path:'/cell', name: 'cell', component:Cell }
       ]
     }

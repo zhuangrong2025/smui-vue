@@ -115,6 +115,14 @@
     background-position: center -350px; 
   }
 }
+.textarea{
+  &:before{
+    background-position: center -900px;  
+  }
+  &:after{
+    background-position: center -950px; 
+  }
+}
 
 /*
  * list

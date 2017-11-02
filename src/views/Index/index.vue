@@ -24,9 +24,9 @@
           <i class="input"></i>
           <p>input</p>
         </router-link>
-        <router-link to="radio">
-          <i class="radio"></i>
-          <p>radio</p>
+        <router-link to="textarea">
+          <i class="textarea"></i>
+          <p>textarea</p>
         </router-link>
       </div>
       <!--//表单-->
