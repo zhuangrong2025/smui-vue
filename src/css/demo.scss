@@ -123,6 +123,22 @@
     background-position: center -950px; 
   }
 }
+.switch{
+  &:before{
+    background-position: center -1000px;  
+  }
+  &:after{
+    background-position: center -1050px; 
+  }
+}
+.select{
+  &:before{
+    background-position: center -1100px;  
+  }
+  &:after{
+    background-position: center -1150px; 
+  }
+}
 
 /*
  * list

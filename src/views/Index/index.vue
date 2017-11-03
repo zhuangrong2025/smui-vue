@@ -16,9 +16,9 @@
           <i class="radio"></i>
           <p>radio</p>
         </router-link>
-        <router-link to="button">
-          <i class="button"></i>
-          <p>button</p>
+        <router-link to="switch">
+          <i class="switch"></i>
+          <p>switch</p>
         </router-link>
         <router-link to="input">
           <i class="input"></i>
@@ -27,6 +27,10 @@
         <router-link to="textarea">
           <i class="textarea"></i>
           <p>textarea</p>
+        </router-link>
+        <router-link to="select">
+          <i class="select"></i>
+          <p>select</p>
         </router-link>
       </div>
       <!--//表单-->

@@ -18,14 +18,12 @@
   }
 }
 
-
-
 //textarea
-.weui-textarea {
+.sm-textarea {
+  width: 100%;
   display: block;
   border: 0;
   resize: none;
-  width: 100%;
   color: inherit;
   font-size: 1em;
   line-height: inherit;

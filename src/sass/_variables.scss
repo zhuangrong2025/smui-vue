@@ -73,7 +73,7 @@ $btn-height-mini:2.3;
 //checkbox，radio - 多选框，单选框
 //
 //-------------------------------------------------
-$checkedColor:                   #09BB07;
+$checkedColor:                   $brand-success;
 $checkDefaultColor:              #c9c9c9;
 $checkFontSize:                  23px;
 
@@ -82,7 +82,7 @@ $checkFontSize:                  23px;
 //
 //-------------------------------------------------
 $switchHeight:                   32px;
-$switchedColor:                  #78BB05;
+$switchedColor:                  $brand-success;
 
 //iconfont
 //

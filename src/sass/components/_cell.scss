@@ -67,11 +67,12 @@
       width: 105px;
       @include textwrap()
   }
-  .sm-textarea,
-  .sm-input{
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-      flex: 1;
+  @at-root &.sm-cell-switch{
+     padding-top: 6.5px;
+     padding-bottom: 6.5px;
+     > span{
+      font-size: 0;
+     }
   }
 }
 
