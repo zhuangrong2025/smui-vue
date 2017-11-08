@@ -60,6 +60,36 @@
         </router-link>
       </div>
       <!--//列表-->
+      <div class="demo-space"></div>
+      <!--基础组件-->
+      <h2 class="demo-title">基础组件</h2>
+      <div class="demo-components">
+        <router-link to="panel">
+          <i class="panel"></i>
+          <p>panel</p>
+        </router-link>
+        <router-link to="article">
+          <i class="article"></i>
+          <p>article</p>
+        </router-link>
+        <router-link to="badge">
+          <i class="badge"></i>
+          <p>badge</p>
+        </router-link>
+        <router-link to="flex">
+          <i class="flex"></i>
+          <p>flex</p>
+        </router-link>
+        <router-link to="space">
+          <i class="space"></i>
+          <p>space</p>
+        </router-link>
+        <router-link to="grid">
+          <i class="grid"></i>
+          <p>gird</p>
+        </router-link>
+      </div>
+      <!--//基础组件-->
       
     </div>
     

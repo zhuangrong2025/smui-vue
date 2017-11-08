@@ -71,22 +71,27 @@ $btn-height-mini:2.3;
 
 
 //checkbox，radio - 多选框，单选框
-//
-//-------------------------------------------------
-$checkedColor:                   $brand-success;
-$checkDefaultColor:              #c9c9c9;
-$checkFontSize:                  23px;
+
+$checked-color:                   $brand-success;
+$check-default-color:             #c9c9c9;
+$check-font-size:                 23px;
 
 
 // 开关
-//
-//-------------------------------------------------
-$switchHeight:                   32px;
-$switchedColor:                  $brand-success;
+
+$switchHeight:                    32px;
+$switchedColor:                   $brand-success;
 
 //iconfont
-//
-//-------------------------------------------------
+
 //$iconfontLink:                   32px;
-$iconTabbar01:                   "\e702";
+$iconTabbar01:                    "\e702";
+
+//grid
+
+$grid-columns:                    3;
+
+
+
+
 

@@ -6,13 +6,13 @@
   margin: 0 5px -3px;
   &:checked{
     &:before{
-      color: $checkedColor;
+      color: $checked-color;
     }
   }
   &:before{
     font-family: 'smui';
-    font-size: $checkFontSize;
-    color: $checkDefaultColor;
+    font-size: $check-font-size;
+    color: $check-default-color;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
   }

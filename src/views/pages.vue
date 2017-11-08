@@ -31,6 +31,7 @@
   .child-view {
     position: absolute;
     width:100%;
+    height: 100%;
     transition: all .3s linear;
   }
   .slide-left-enter, .slide-right-leave-active {

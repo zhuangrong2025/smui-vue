@@ -10,12 +10,17 @@ import Textarea from "../views/Components/textarea";
 import Switch from "../views/Components/switch";
 import Select from "../views/Components/select";
 import Cell from "../views/Components/cell";
+import Panel from "../views/Components/panel";
+import Article from "../views/Components/article";
+import Badge from "../views/Components/badge";
+import Flex from "../views/Components/flex";
+import Space from "../views/Components/space";
+import Grid from "../views/Components/grid";
 
 VueRouter.prototype.goBack = function(){
   this.isBack = true
   window.history.go(-1)
 }
-
 
 const routes = [
     { 
@@ -30,7 +35,13 @@ const routes = [
         { path:'/textarea',    component:Textarea },
         { path:'/switch',    component:Switch },
         { path:'/select',    component:Select },
-        { path:'/cell', name: 'cell', component:Cell }
+        { path:'/cell', name: 'cell', component:Cell },
+        { path:'/panel', component: Panel },
+        { path:'/article', component: Article },
+        { path:'/badge', component: Badge },
+        { path:'/flex', component: Flex },
+        { path:'/space', component: Space },
+        { path:'/grid', component: Grid },
       ]
     }
   ]
