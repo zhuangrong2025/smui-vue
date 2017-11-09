@@ -32,12 +32,13 @@
     position: absolute;
     width:100%;
     height: 100%;
-    transition: all .3s linear;
+    transition: all .25s linear;
   }
   .slide-left-enter, .slide-right-leave-active {
     opacity: 0;
     -webkit-transform: translate(100%, 0);
     transform: translate(100%, 0);
+    transition: all .15s linear;
   }
   .slide-left-leave-active, .slide-right-enter {
     opacity: 0;

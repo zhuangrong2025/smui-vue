@@ -16,6 +16,7 @@ import Badge from "../views/Components/badge";
 import Flex from "../views/Components/flex";
 import Space from "../views/Components/space";
 import Grid from "../views/Components/grid";
+import Icon from "../views/Components/icon";
 
 VueRouter.prototype.goBack = function(){
   this.isBack = true
@@ -42,6 +43,7 @@ const routes = [
         { path:'/flex', component: Flex },
         { path:'/space', component: Space },
         { path:'/grid', component: Grid },
+        { path:'/icon', component: Icon },
       ]
     }
   ]
