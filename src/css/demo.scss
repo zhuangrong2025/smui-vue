@@ -55,7 +55,6 @@
     font-size: 13px;
   }
   i{
-    display: block;
     margin: 0 auto 3px;
     font-size: 40px; 
     line-height: 40px;
@@ -290,6 +289,16 @@
   }
   &:after{
     background-position: center -1850px;  
+  }
+}
+
+/*actionsheet*/
+.actionsheet{
+  &:before{
+    background-position: center -1900px;  
+  }
+  &:after{
+    background-position: center -1950px;  
   }
 }
 

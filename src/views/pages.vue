@@ -36,14 +36,16 @@
   }
   .slide-left-enter, .slide-right-leave-active {
     opacity: 0;
-    -webkit-transform: translate(100%, 0);
-    transform: translate(100%, 0);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
     transition: all .15s linear;
+    overflow: hidden; /*必须加，防止有滚动条并在页面转场时出现位置跳动*/
   }
   .slide-left-leave-active, .slide-right-enter {
     opacity: 0;
-    -webkit-transform: translate(-100%, 0);
-    transform: translate(-100%, 0);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    overflow: hidden;
   }
   /*page*/
   body{

@@ -72,6 +72,16 @@
         </router-link>
       </div>
       <!--//基础组件-->
+      <div class="demo-space"></div>
+      <!--操作反馈-->
+      <h2 class="demo-title">操作反馈</h2>
+      <div class="demo-components">
+        <router-link to="actionsheet">
+          <i class="actionsheet"></i>
+          <p>actionsheet</p>
+        </router-link>
+      </div>
+      <!--//操作反馈-->
       
     </div>
     

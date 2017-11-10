@@ -17,6 +17,7 @@ import Flex from "../views/Components/flex";
 import Space from "../views/Components/space";
 import Grid from "../views/Components/grid";
 import Icon from "../views/Components/icon";
+import Actionsheet from "../views/Components/actionsheet";
 
 VueRouter.prototype.goBack = function(){
   this.isBack = true
@@ -44,6 +45,7 @@ const routes = [
         { path:'/space', component: Space },
         { path:'/grid', component: Grid },
         { path:'/icon', component: Icon },
+        { path:'/actionsheet', component: Actionsheet },
       ]
     }
   ]
