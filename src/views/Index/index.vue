@@ -80,6 +80,10 @@
           <i class="actionsheet"></i>
           <p>actionsheet</p>
         </router-link>
+        <router-link to="toast">
+          <i class="toast"></i>
+          <p>toast</p>
+        </router-link>
       </div>
       <!--//操作反馈-->
       

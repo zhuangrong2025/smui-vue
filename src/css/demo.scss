@@ -302,6 +302,16 @@
   }
 }
 
+/*toast*/
+.toast{
+  &:before{
+    background-position: center -2000px;  
+  }
+  &:after{
+    background-position: center -2050px;  
+  }
+}
+
 
 
 

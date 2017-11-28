@@ -21,6 +21,7 @@
       <li title=""><i class="sm-icon-cancel"></i>取消</li>
       <li title=""><i class="sm-icon-download"></i>下载</li>
       <li title=""><i class="sm-icon-delete"></i>删除</li>
+      <li title=""><i class="sm-icon-loading"></i>加载</li>
     </ul>
   </div>
 </div>
