@@ -312,6 +312,26 @@
   }
 }
 
+/*dialog*/
+.dialog{
+  &:before{
+    background-position: center -2100px;  
+  }
+  &:after{
+    background-position: center -2150px;  
+  }
+}
+
+/*message*/
+.message{
+  &:before{
+    background-position: center -2200px;  
+  }
+  &:after{
+    background-position: center -2250px;  
+  }
+}
+
 
 
 

@@ -1,8 +1,8 @@
 <template>
 <div>
   <div class="demo-space">
-    <div class="sm-btn outline-primary" id="btn1">success</div>
-    <div class="sm-btn outline-secondary" id="btn2">loading</div>
+    <div class="sm-btn primary" id="btn1">成功提示</div>
+    <div class="sm-btn warning" id="btn2">加载提示</div>
     <!--toast success-->
     <div class="sm-toast" id="toast1">
       <div>

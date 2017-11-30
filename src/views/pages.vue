@@ -12,16 +12,13 @@
         transitionName: 'slide-left'
       }
     },
-    beforeRouteUpdate (to, from, next) {
-      let isBack = this.$router.isBack
-      //this.$route.path != '/' 判断浏览器是后退或前进
-      if (isBack || this.$route.path != '/') {
-        this.transitionName = 'slide-right'
-      } else {
-        this.transitionName = 'slide-left'
+    watch: {
+      // to表示的是你要去的那个组件，from 表示的是你从哪个组件过来的，判断时间戳的顺序，开始设置页面切换顺序
+      $route(to,from){
+        var inTime = to.query.timestamp|| 0
+        var outTime = from.query.timestamp || 0
+        this.transitionName = Number(inTime) < Number(outTime) ? 'slide-right' : 'slide-left'
       }
-      this.$router.isBack = false
-      next()
     }
   }
 </script>

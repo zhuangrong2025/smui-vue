@@ -19,6 +19,9 @@ import Grid from "../views/Components/grid";
 import Icon from "../views/Components/icon";
 import Actionsheet from "../views/Components/actionsheet";
 import Toast from "../views/Components/toast";
+import Dialog from "../views/Components/dialog";
+import ToMessage from "../views/Components/toMessage";
+import Message from "../views/Components/message";
 
 VueRouter.prototype.goBack = function(){
   this.isBack = true
@@ -48,6 +51,9 @@ const routes = [
         { path:'/icon', component: Icon },
         { path:'/actionsheet', component: Actionsheet },
         { path:'/toast', component: Toast },
+        { path:'/dialog', component: Dialog },
+        { path:'/toMessage', component: ToMessage },
+        { path:'/toMessage/message', component: Message },
       ]
     }
   ]
