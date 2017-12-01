@@ -17,7 +17,7 @@
       $route(to,from){
         var inTime = to.query.timestamp|| 0
         var outTime = from.query.timestamp || 0
-        this.transitionName = Number(inTime) < Number(outTime) ? 'slide-right' : 'slide-left'
+        this.transitionName = inTime < outTime ? 'slide-right' : 'slide-left'
       }
     }
   }

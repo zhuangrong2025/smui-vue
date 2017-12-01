@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="demo-space">
-    <router-link :to="{path: '/toMessage/message', query: {timestamp: new Date()}}">
+    <router-link :to="{path: '/toMessage/message', query: {timestamp: Number(new Date())}}">
       <a href="javascript:;" class="sm-btn primary">成功提示页</a>
     </router-link>
   </div> 

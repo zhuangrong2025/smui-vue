@@ -5,6 +5,8 @@ import VueRouter from "vue-router";
 import Smui from "./sass/smui.scss";
 import Demo from "./css/demo.scss";
 import $ from 'jquery'  
+//swiper.css
+import Swipercss from "./css/swiper.min.css";
 
 Vue.config.productionTip = false
 Vue.config.debug = true;//开启错误提示

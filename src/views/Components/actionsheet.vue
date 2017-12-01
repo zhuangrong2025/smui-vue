@@ -1,8 +1,8 @@
 <template>
 <div>
   <div class="demo-space">
-    <div class="sm-btn primary" id="btn1">ActionSheet（一）</div>
-    <div class="sm-btn primary" id="btn2">ActionSheet（二）</div>
+    <a href="javascript:;"  class="sm-btn primary" id="btn1">ActionSheet（一）</a>
+    <a href="javascript:;"  class="sm-btn primary" id="btn2">ActionSheet（二）</a>
     <!--底部弹出菜单-->
     <div class="sm-mask" id="mask1"></div>
     <div class="sm-actionSheet" id="actionSheet1">

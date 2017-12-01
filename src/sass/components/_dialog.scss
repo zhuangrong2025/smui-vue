@@ -37,7 +37,7 @@
       -webkit-box-flex: 1;
       -webkit-flex: 1;
       flex: 1;
-      color: #3CC51F;
+      color: $brand-primary;
       text-decoration: none;
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       position: relative;
@@ -49,16 +49,15 @@
         top: 0;
         width: 1px;
         bottom: 0;
-        border-left: 1px solid #ECECEC;
+        border-left: 1px solid $gray-lighter;
       }
       &:first-child{
-        color: #000;
         &:after {
             display: none;
         }
       }
       &.primary{
-        color: #3CC51F;
+        color: $brand-primary;
       }
     }
     &:after{
@@ -68,7 +67,7 @@
       top: 0;
       right: 0;
       height: 1px;
-      border-top: 1px solid #ECECEC;
+      border-top: 1px solid $gray-lighter;
     }
   }
 }

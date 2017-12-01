@@ -23,13 +23,13 @@
 export default {
   mounted(){
     this.$nextTick( function () {
-      console.log("dialog history=" + window.history.length)
       //dialog
+      //隐藏
       $("div[data-case=caseid003]").on("click",".dialog-footer a", function(){
         $(".sm-mask[data-case=caseid003]").fadeOut(200)
         $(".sm-dialog[data-case=caseid003]").fadeOut(200)
       })
-
+      //显示
       $(':not(div)[data-case=caseid003]').on('click', function(){
         $(".sm-mask[data-case=caseid003]").fadeIn(200)
         $(".sm-dialog[data-case=caseid003]").fadeIn(200)

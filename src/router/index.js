@@ -22,11 +22,7 @@ import Toast from "../views/Components/toast";
 import Dialog from "../views/Components/dialog";
 import ToMessage from "../views/Components/toMessage";
 import Message from "../views/Components/message";
-
-VueRouter.prototype.goBack = function(){
-  this.isBack = true
-  window.history.go(-1)
-}
+import Picker from "../views/Components/picker";
 
 const routes = [
     { 
@@ -54,6 +50,7 @@ const routes = [
         { path:'/dialog', component: Dialog },
         { path:'/toMessage', component: ToMessage },
         { path:'/toMessage/message', component: Message },
+        { path:'/picker', component: Picker },
       ]
     }
   ]
