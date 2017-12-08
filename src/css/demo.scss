@@ -23,9 +23,29 @@
   padding: 0 15px;
 }
 .demo-title{
-  padding: 10px 5px 0;
+  padding: 20px 0;
+  margin: 0 5px;
   font-size: 18px;
   font-weight: normal;
+  position: relative;
+  text-align: center;
+}
+.demo-title span{
+  width: auto;
+  position: relative;
+  background-color: #F8F8F8;
+  z-index: 9;
+  padding: 0 12px;
+}
+.demo-title:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1px dashed #888;
 }
 .demo-space{ 
   padding: 20px;
@@ -332,7 +352,20 @@
   }
 }
 
-
+@media screen and (min-width: 1200px) {
+  
+  .demo-title{
+		text-align: left;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .demo-title span{
+		padding: 0;
+  }
+  .demo-title:after {
+		display: none;
+  }
+}
 
 
 

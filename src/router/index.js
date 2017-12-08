@@ -23,6 +23,7 @@ import Dialog from "../views/Components/dialog";
 import ToMessage from "../views/Components/toMessage";
 import Message from "../views/Components/message";
 import Picker from "../views/Components/picker";
+import DatePicker from "../views/Components/datePicker";
 
 const routes = [
     { 
@@ -51,6 +52,7 @@ const routes = [
         { path:'/toMessage', component: ToMessage },
         { path:'/toMessage/message', component: Message },
         { path:'/picker', component: Picker },
+        { path:'/datePicker', component: DatePicker },
       ]
     }
   ]

@@ -2,7 +2,7 @@
   <div>
     <div class="demo-container">
       <!--表单-->
-      <h2 class="demo-title">表单</h2>
+      <h2 class="demo-title"><span>表单</span></h2>
       <div class="demo-components">
         <router-link :to="{path: '/button', query: {timestamp: Number(new Date())}}">
           <i class="button"></i>
@@ -40,7 +40,7 @@
       <!--//表单-->
       <div class="demo-space"></div>
       <!--基础组件-->
-      <h2 class="demo-title">基础组件</h2>
+      <h2 class="demo-title"><span>基础组件</span></h2>
       <div class="demo-components">
         <router-link :to="{path: '/panel', query: {timestamp: Number(new Date())}}">
           <i class="panel"></i>
@@ -74,7 +74,7 @@
       <!--//基础组件-->
       <div class="demo-space"></div>
       <!--操作反馈-->
-      <h2 class="demo-title">操作反馈</h2>
+      <h2 class="demo-title"><span>操作反馈</span></h2>
       <div class="demo-components">
         <router-link :to="{path: '/actionsheet', query: {timestamp: Number(new Date())}}">
           <i class="actionsheet"></i>
@@ -95,6 +95,10 @@
         <router-link :to="{path: '/picker', query: {timestamp: Number(new Date())}}">
           <i class="message"></i>
           <p>picker</p>
+        </router-link>
+        <router-link :to="{path: '/datePicker', query: {timestamp: Number(new Date())}}">
+          <i class="message"></i>
+          <p>datePicker</p>
         </router-link>
       </div>
       <!--//操作反馈-->
