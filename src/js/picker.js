@@ -65,6 +65,7 @@
         $(".sm-picker[data-case=" + cid + "]").removeClass("toggle")
 			}) 
     }
+    
   }
   
   window.Picker = Picker
