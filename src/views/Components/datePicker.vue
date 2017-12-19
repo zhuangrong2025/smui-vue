@@ -35,8 +35,8 @@ export default {
                 cid:"caseid007",
                 onConfirm: function(result){
                   $(".sm-btn").text(result)
-              }
-			});
+                }
+			    });
     })
   }
 }

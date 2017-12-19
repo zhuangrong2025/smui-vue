@@ -93,18 +93,35 @@
           <p>message</p>
         </router-link>
         <router-link :to="{path: '/picker', query: {timestamp: Number(new Date())}}">
-          <i class="message"></i>
+          <i class="picker"></i>
           <p>picker</p>
         </router-link>
         <router-link :to="{path: '/datePicker', query: {timestamp: Number(new Date())}}">
-          <i class="message"></i>
+          <i class="datePicker"></i>
           <p>datePicker</p>
         </router-link>
       </div>
       <!--//操作反馈-->
+      <div class="demo-space"></div>
+      <!--导航相关-->
+      <h2 class="demo-title"><span>导航和搜索</span></h2>
+      <div class="demo-components">
+        <router-link :to="{path: '/navbar', query: {timestamp: Number(new Date())}}">
+          <i class="navbar"></i>
+          <p>navbar</p>
+        </router-link>
+        <router-link :to="{path: '/tabbar', query: {timestamp: Number(new Date())}}">
+          <i class="tabbar"></i>
+          <p>tabbar</p>
+        </router-link>
+        <router-link :to="{path: '/searchbar', query: {timestamp: Number(new Date())}}">
+          <i class="searchbar"></i>
+          <p>searchbar</p>
+        </router-link>
+      </div>
+      <!--//导航相关-->
+      <div class="demo-space"></div>
     </div>
-    
-    
   </div>
 </template>
 <script>

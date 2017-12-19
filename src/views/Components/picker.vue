@@ -18,12 +18,11 @@
                 <div class="swiper-slide">火车票</div>
                 <div class="swiper-slide">的士票</div>
                 <div class="swiper-slide">公交票</div>
-                <div class="swiper-slide">公交票</div>
+                <div class="swiper-slide">地铁票</div>
                 <div class="swiper-slide">其他</div>
               </div>
           </div>
           <!--//swiper-->
-          
         </div>
       </div>
     </div>

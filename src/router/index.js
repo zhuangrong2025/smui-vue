@@ -24,6 +24,9 @@ import ToMessage from "../views/Components/toMessage";
 import Message from "../views/Components/message";
 import Picker from "../views/Components/picker";
 import DatePicker from "../views/Components/datePicker";
+import Navbar from "../views/Components/navbar";
+import Tabbar from "../views/Components/tabbar";
+import Searchbar from "../views/Components/searchbar";
 
 const routes = [
     { 
@@ -53,6 +56,9 @@ const routes = [
         { path:'/toMessage/message', component: Message },
         { path:'/picker', component: Picker },
         { path:'/datePicker', component: DatePicker },
+        { path:'/navbar', component: Navbar },
+        { path:'/tabbar', component: Tabbar },
+        { path:'/searchbar', component: Searchbar },
       ]
     }
   ]

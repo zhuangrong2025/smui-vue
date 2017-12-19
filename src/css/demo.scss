@@ -2,6 +2,7 @@
 /*=========================
  demo that show components 
  =========================*/
+//居中显示
 //.demo-wrap{
 //  position: absolute;
 //  left:50%;
@@ -351,9 +352,53 @@
     background-position: center -2250px;  
   }
 }
+/*picker*/
+.picker{
+  &:before{
+    background-position: center -2300px;  
+  }
+  &:after{
+    background-position: center -2350px;  
+  }
+}
+/*datePicker*/
+.datePicker{
+  &:before{
+    background-position: center -2400px;  
+  }
+  &:after{
+    background-position: center -2450px;  
+  }
+}
+/*navbar*/
+.navbar{
+  &:before{
+    background-position: center -2500px;  
+  }
+  &:after{
+    background-position: center -2550px;  
+  }
+}
+/*tabbar*/
+.tabbar{
+  &:before{
+    background-position: center -2600px;  
+  }
+  &:after{
+    background-position: center -2650px;  
+  }
+}
+/*searchbar*/
+.searchbar{
+  &:before{
+    background-position: center -2700px;  
+  }
+  &:after{
+    background-position: center -2750px;  
+  }
+}
 
 @media screen and (min-width: 1200px) {
-  
   .demo-title{
 		text-align: left;
     padding-bottom: 0;
