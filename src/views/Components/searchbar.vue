@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="demo-space">
-    <!--search-->
+    <!--searchbar-->
     <div class="sm-searchbar">
       <label></label>
       <div>
@@ -10,7 +10,7 @@
         <button>取消</button>
       </div>
     </div>
-    <!--//search-->
+    <!--//searchbar-->
   </div> 
 </div>
 </template>

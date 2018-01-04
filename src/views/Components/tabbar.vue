@@ -9,7 +9,7 @@
     <!--tabbar-->
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_378141_8cl3a5vspzo7p66r.css">
     <nav class="sm-tabbar">
-      <a href="#" class="active"><i class="icon-homepage"></i><span>首页</span></a>
+      <a href="#" class="active"><i class="icon-homepage"></i><i class="icon-homepage_fill"></i><span>首页</span><i class="icon-homepage_fill"></i></a>
       <a href="#"><i class="icon-label"></i><span>发布</span></a>
       <a href="#"><i class="icon-service"></i><span>服务</span></a>
       <a href="#"><i class="icon-people"></i><span>我</span></a>
