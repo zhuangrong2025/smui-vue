@@ -23,18 +23,18 @@
   </div>
   <div class="sm-panels-title">文字组合列表</div>
   <div class="sm-panels">
-    <div class="sm-panel">
+    <a class="sm-panel">
       <article>
         <h4>标题一</h4>
         <p>人类第一次直接探测到来自双中子星合并的引力波，并同时看到这一壮观宇宙事件发出的电磁信号</p>
       </article>
-    </div>
-    <div class="sm-panel">
+    </a>
+    <a class="sm-panel">
       <article>
         <h4>标题二</h4>
         <p>人类第一次直接探测到来自双中子星合并的引力波，并同时看到这一壮观宇宙事件发出的电磁信号</p>
       </article>
-    </div>
+    </a>
   </div>
 </div>
 </template>
