@@ -16,6 +16,10 @@
           <i class="list"></i>
           <p>list</p>
         </router-link>
+        <router-link :to="{path: '/buttonbar', query: {timestamp: Number(new Date())}}">
+          <i class="buttonbar"></i>
+          <p>buttonbar</p>
+        </router-link>
         <router-link :to="{path: '/checkbox', query: {timestamp: Number(new Date())}}">
           <i class="checkbox"></i>
           <p>checkbox</p>
@@ -117,6 +121,10 @@
         <router-link :to="{path: '/searchbar', query: {timestamp: Number(new Date())}}">
           <i class="searchbar"></i>
           <p>searchbar</p>
+        </router-link>
+        <router-link :to="{path: '/swiper', query: {timestamp: Number(new Date())}}">
+          <i class="swiperx"></i>
+          <p>swiper</p>
         </router-link>
       </div>
       <!--//导航相关-->

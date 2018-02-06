@@ -151,6 +151,12 @@
     background-position: center -50px;
   }
 }
+.buttonbar:before {
+  background-position: center -2800px;
+}
+.buttonbar:after {
+  background-position: center -2850px;
+}
 .checkbox{
   &:before{
     background-position: center -100px; 
@@ -395,6 +401,15 @@
   }
   &:after{
     background-position: center -2750px;  
+  }
+}
+/*searchbar*/
+.swiperx{
+  &:before{
+    background-position: center -2900px;  
+  }
+  &:after{
+    background-position: center -2950px;  
   }
 }
 

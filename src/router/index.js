@@ -3,6 +3,7 @@ import Pages from "../views/pages";
 import Index from "../views/Index/index";
 import User from "../views/User/user";
 import Button from "../views/Components/button";
+import Buttonbar from "../views/Components/buttonbar";
 import Checkbox from "../views/Components/checkbox";
 import Radio from "../views/Components/radio";
 import Input from "../views/Components/input";
@@ -27,6 +28,7 @@ import DatePicker from "../views/Components/datePicker";
 import Navbar from "../views/Components/navbar";
 import Tabbar from "../views/Components/tabbar";
 import Searchbar from "../views/Components/searchbar";
+import Swiper from "../views/Components/swiper";
 
 const routes = [
     { 
@@ -35,6 +37,7 @@ const routes = [
       children: [
         { path: '',        component:Index},
         { path:'/button',   component:Button },
+        { path:'/buttonbar',   component:Buttonbar },
         { path:'/checkbox', component:Checkbox },
         { path:'/radio',    component:Radio },
         { path:'/input',    component:Input },
@@ -59,6 +62,7 @@ const routes = [
         { path:'/navbar', component: Navbar },
         { path:'/tabbar', component: Tabbar },
         { path:'/searchbar', component: Searchbar },
+        { path:'/swiper', component: Swiper },
       ]
     }
   ]
