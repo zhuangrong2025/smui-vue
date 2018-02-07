@@ -126,6 +126,10 @@
           <i class="swiperx"></i>
           <p>swiper</p>
         </router-link>
+        <router-link :to="{path: '/avatar', query: {timestamp: Number(new Date())}}">
+          <i class="swiperx"></i>
+          <p>avatar</p>
+        </router-link>
       </div>
       <!--//导航相关-->
       <div class="demo-space"></div>
