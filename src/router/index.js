@@ -29,6 +29,9 @@ import Navbar from "../views/Components/navbar";
 import Tabbar from "../views/Components/tabbar";
 import Searchbar from "../views/Components/searchbar";
 import Swiper from "../views/Components/swiper";
+import Avatar from "../views/Components/avatar";
+import FlexText from "../views/Components/flexText";
+import Alert from "../views/Components/alert";
 
 const routes = [
     { 
@@ -63,6 +66,9 @@ const routes = [
         { path:'/tabbar', component: Tabbar },
         { path:'/searchbar', component: Searchbar },
         { path:'/swiper', component: Swiper },
+        { path:'/avatar', component: Avatar },
+        { path:'/flexText', component: FlexText },
+        { path:'/alert', component: Alert },
       ]
     }
   ]

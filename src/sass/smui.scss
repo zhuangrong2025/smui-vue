@@ -38,13 +38,16 @@
   "components/searchbar",
   "components/swiper",
   "components/avatar",
+  "components/flexText",
+  "components/alert",
   "components/article";
 
 
 
 /*page padd*/
 .sm-container{
-  padding: 0 0
+  padding: 0 0;
+  background-color: $body-bg;
 }
 .sm-container.isTb{
   padding-bottom: 50px;

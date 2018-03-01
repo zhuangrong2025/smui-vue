@@ -403,7 +403,7 @@
     background-position: center -2750px;  
   }
 }
-/*searchbar*/
+/*swiperx*/
 .swiperx{
   &:before{
     background-position: center -2900px;  
@@ -411,6 +411,28 @@
   &:after{
     background-position: center -2950px;  
   }
+}
+/*avatar*/
+.avatar:before {
+  background-position: center -3000px;
+}
+.avatar:after {
+  background-position: center -3050px;
+}
+/*flextext*/
+.flextext:before {
+  background-position: center -3100px;
+}
+.flextext:after {
+  background-position: center -3150px;
+}
+
+/*alert*/
+.alert:before {
+  background-position: center -3200px;
+}
+.alert:after {
+  background-position: center -3250px;
 }
 
 @media screen and (min-width: 1200px) {

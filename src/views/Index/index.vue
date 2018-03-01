@@ -74,6 +74,10 @@
           <i class="icon"></i>
           <p>icon</p>
         </router-link>
+        <router-link :to="{path: '/alert', query: {timestamp: Number(new Date())}}">
+          <i class="alert"></i>
+          <p>alert</p>
+        </router-link>
       </div>
       <!--//基础组件-->
       <div class="demo-space"></div>
@@ -127,8 +131,12 @@
           <p>swiper</p>
         </router-link>
         <router-link :to="{path: '/avatar', query: {timestamp: Number(new Date())}}">
-          <i class="swiperx"></i>
+          <i class="avatar"></i>
           <p>avatar</p>
+        </router-link>
+        <router-link :to="{path: '/flexText', query: {timestamp: Number(new Date())}}">
+          <i class="flextext"></i>
+          <p>flexText</p>
         </router-link>
       </div>
       <!--//导航相关-->
